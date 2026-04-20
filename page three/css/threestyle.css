@@ -1,0 +1,13 @@
+@font-face {
+    font-family: child;
+    src: url(../../fonts/CaveatBrush-Regular.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: child;
+    font-size: 100px;
+  }
+

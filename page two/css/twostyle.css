@@ -1,0 +1,53 @@
+@font-face {
+    font-family: child;
+    src: url(../../fonts/CaveatBrush-Regular.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: child;
+    font-size: 100px;
+    text-align: center;
+  }
+
+.super {
+  overflow: hidden; 
+  white-space: nowrap; 
+}
+
+#heros {
+  display: inline-block;
+  padding-left: 100%; 
+  white-space: nowrap;
+  animation: scroll-right 10s linear infinite; 
+}
+
+@keyframes scroll-right {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0%); } 
+}
+
+.what {
+  opacity: 0; 
+  animation: fadeIn 1s ease-in forwards; 
+  animation-delay: 3s; 
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+#raise a{
+text-decoration: none;
+color: black;
+}
+
+#raise, #raise a{
+    font-size: 20;
+    transform: scale(120%);
+    transition-delay: 4s;
+    transition-duration: 4s;
+}

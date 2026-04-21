@@ -15,3 +15,8 @@ Visual Studio Code
 # acknowledgment
 
 Lyrics from Luke Chiang's 'twenty something'
+Code used from:
+https://codepen.io/thetallweeks/pen/yybGra
+https://codepen.io/acronamy/pen/gOYGaej
+https://codepen.io/chris22smith/pen/pQxjoB
+https://css-tricks.com/snippets/svg/curved-text-along-path/?cs=1&hl=en-US&biw=1920&bih=919#:~:text=We%20can%20flow%20text%20along,text%3E%20and%20
